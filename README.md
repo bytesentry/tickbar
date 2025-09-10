@@ -1,4 +1,5 @@
-# Tick Bar
+# Tickbar
+![Screenshot](images/tickbar.ico)
 
 A sleek, cross-platform timer bar with a minimalist design, perfect for tracking time in games, productivity tasks, or any activity needing a visual countdown. Featuring a customizable duration, sound effects, and a modern interface, Tick Bar is lightweight and stays on top of your screen for easy access.
 
@@ -57,7 +58,7 @@ pyinstaller --onefile --add-data "tick.wav;." tickbar.py
 - **Sound**: Ticking plays per cycle if enabled (requires `tick.wav`).
 
 ## Screenshots
-[Add screenshots here, e.g., bar, menu, dialog, animation. Use a tool like GIMP or Canva to capture.]
+![Screenshot](images/tickbar1.png)
 
 ## License
 MIT License - feel free to use, modify, or distribute!
