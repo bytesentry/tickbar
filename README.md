@@ -11,6 +11,10 @@ A sleek, cross-platform timer bar with a minimalist design, perfect for tracking
 - **Interactive**: Resize (4px margin), drag, and always-on-top (except during menu interactions on Windows).
 - **Right-Click Menu**: Access "Set Timer", "Enable Sound", and "Close" with a native feel on both platforms.
 
+## Screenshots
+![Screenshot](images/tickbar1.png)
+![Screenshot](images/tickbar2.png)
+
 ## Why Download?
 Tick Bar is ideal for:
 - **Gamers**: Time in-game events or cooldowns with a non-intrusive overlay.
@@ -56,10 +60,6 @@ pyinstaller --onefile --add-data "tick.wav;." tickbar.py
 - **Customize**: Right-click for a menu to set duration (1-600s), toggle sound, or close.
 - **Move/Resize**: Drag the bar or use edges (4px margin) to resize (226x26 to 452x52 pixels).
 - **Sound**: Ticking plays per cycle if enabled (requires `tick.wav`).
-
-## Screenshots
-![Screenshot](images/tickbar1.png)
-![Screenshot](images/tickbar2.png)
 
 ## License
 MIT License - feel free to use, modify, or distribute!
