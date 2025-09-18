@@ -191,20 +191,16 @@ class HUDApp:
             return
         try:
             sound_file = resource_path('tick.wav')
-            if platform.system() == 'Windows':
-                import winsound
-                winsound.PlaySound(sound_file, winsound.SND_FILENAME | winsound.SND_ASYNC)
-            else:
-                if not hasattr(self, 'tick_sound'):
-                    os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
-                    import contextlib
-                    with contextlib.redirect_stdout(open(os.devnull, 'w')):
-                        with contextlib.redirect_stderr(open(os.devnull, 'w')):
-                            import pygame
-                            pygame.mixer.pre_init(frequency=22050, size=-16, channels=2, buffer=512)
-                            pygame.mixer.init()
-                    self.tick_sound = pygame.mixer.Sound(sound_file)
-                self.tick_sound.play()
+            if not hasattr(self, 'tick_sound'):
+                os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
+                import contextlib
+                with contextlib.redirect_stdout(open(os.devnull, 'w')), \
+                        contextlib.redirect_stderr(open(os.devnull, 'w')):
+                    import pygame
+                    pygame.mixer.pre_init(frequency=22050, size=-16, channels=2, buffer=512)
+                    pygame.mixer.init()
+                self.tick_sound = pygame.mixer.Sound(sound_file)
+            self.tick_sound.play()
         except Exception as e:
             print(f"Sound error: {e}")
 
