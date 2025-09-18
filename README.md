@@ -59,6 +59,7 @@ pyinstaller --onefile --add-data "tick.wav;." tickbar.py
 
 ## Screenshots
 ![Screenshot](images/tickbar1.png)
+![Screenshot](images/tickbar2.png)
 
 ## License
 MIT License - feel free to use, modify, or distribute!
