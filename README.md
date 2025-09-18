@@ -8,7 +8,7 @@ A sleek, cross-platform timer bar with a minimalist design, perfect for tracking
 - **Cross-Platform**: Runs smoothly on Linux and Windows with a consistent experience.
 - **Minimalist Design**: Borderless progress bar with a vibrant startup animation (color wave, size pulse, typewriter effect).
 - **Sound Effects**: Optional ticking sound (`tick.wav`) for each cycle, toggleable via right-click menu.
-- **Interactive**: Resize (4px margin), drag, and always-on-top (except during menu interactions on Windows).
+- **Interactive**: Resizable progress bar with always-on-top functionality.
 - **Right-Click Menu**: Access "Set Timer", "Enable Sound", and "Close" with a native feel on both platforms.
 
 ## Screenshots
