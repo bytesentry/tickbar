@@ -53,7 +53,7 @@ pip install pyinstaller
 pyinstaller --onefile --add-data "tick.wav;." tickbar.py
 
 - On Linux, use `pyinstaller --onefile --noconsole --hidden-import=pygame --add-data "tick.wav:." tickbar.py`.
-- On Windows, use `pyinstaller --onefile --noconsole --hidden-import=pygame --add-data "tick.wav;."  tickbar.py`.
+- On Windows, use `pyinstaller --onefile --noconsole --hidden-import=pygame --add-data "tick.wav;." tickbar.py`.
 
 ## Usage
 - **Start/Stop**: Left-click the bar to toggle the timer.
