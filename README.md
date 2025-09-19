@@ -42,7 +42,7 @@ On Windows, use `python tickbar.py` or a PyInstaller executable (see below).
 
 ## Requirements
 - **Python**: 3.6+
-- **Dependencies**: `pygame` (for Linux sound; included in `requirements.txt`)
+- **Dependencies**: `pygame`
 - **Files**: `tick.wav` (included for sound effects)
 - **OS**: Tested on Arch Linux (X11/Wayland) and Windows 10/11
 
