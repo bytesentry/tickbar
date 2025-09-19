@@ -52,8 +52,8 @@ To distribute as a standalone app:
 pip install pyinstaller
 pyinstaller --onefile --add-data "tick.wav;." tickbar.py
 
-- On Linux, find the executable in `dist/tickbar`.
-- On Windows, use `pyinstaller --onefile --add-data "tick.wav;." tickbar.py` (use `;` for Windows paths).
+- On Linux, use `pyinstaller --onefile --noconsole --hidden-import=pygame --add-data "tick.wav:." tickbar.py`.
+- On Windows, use `pyinstaller --onefile --noconsole --hidden-import=pygame --add-data "tick.wav;."  tickbar.py`.
 
 ## Usage
 - **Start/Stop**: Left-click the bar to toggle the timer.
