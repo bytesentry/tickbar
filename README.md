@@ -33,12 +33,10 @@ Its small footprint (~500KB with `tick.wav`) and cross-platform compatibility ma
 
    pip install -r requirements.txt
 
-Ensure `pygame` is installed for sound support on Linux.
+Ensure `pygame` is installed for sound support.
 3. **Run the App**:
 
    python3 tickbar.py
-
-On Windows, use `python tickbar.py` or a PyInstaller executable (see below).
 
 ## Requirements
 - **Python**: 3.6+
